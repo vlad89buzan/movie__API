@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('html/head.html',{
+"title":"Movie__API"
+})
+
+<body>
+	<div class="wrapper">
+		<!-- @@include('html/header.html',{}) -->
+		<header class="header">
+			<form class="header__form" id="form">
+				<input class="header__search" type="text" id="search" placeholder="Search...">
+			</form>
+		</header>
+		<main id="main">
+			<div class="movie">
+				<div class="movie-info">
+					<h3>Movie Title</h3>
+					<span class="green">9.8</span>
+				</div>
+				<div class="overview">
+					<h3>Overview</h3>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, odit consequuntur? Maxime, totam quia sapiente voluptate quas sit fugiat provident.</p>
+				</div>
+			</div>
+			<div class="movie">
+				<div class="movie-info">
+					<h3>Movie Title</h3>
+					<span class="green">9.8</span>
+				</div>
+				<div class="overview">
+					<h3>Overview</h3>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, odit consequuntur? Maxime, totam quia sapiente voluptate quas sit fugiat provident.</p>
+				</div>
+			</div>
+			<div class="movie">
+				<div class="movie-info">
+					<h3>Movie Title</h3>
+					<span class="green">9.8</span>
+				</div>
+				<div class="overview">
+					<h3>Overview</h3>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, odit consequuntur? Maxime, totam quia sapiente voluptate quas sit fugiat provident.</p>
+				</div>
+			</div>
+
+
+
+		</main>
+		<!-- @@include('html/footer.html',{}) -->
+	</div>
+	<script>
+		const API_URL = 'https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&3fd2be6f0c70a2a598f084ddfb75487c&page=1'
+	</script>
+	<!-- <script src="js/app.min.js"></script> -->
+</body>
+
+</html>
